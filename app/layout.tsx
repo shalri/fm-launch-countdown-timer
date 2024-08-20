@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Red_Hat_Text } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const redhat = Red_Hat_Text({ subsets: ["latin"], weight: ["700"] });
 
 export const metadata: Metadata = {
   title: "次に(tsugini) | FScode",
@@ -16,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} flex min-h-screen flex-col antialiased scroll-smooth`}>
+      <body className={`${redhat.className} flex min-h-screen flex-col antialiased scroll-smooth bg-gradient-to-b from-lc-very-dark-blue to-lc-bottom-gradient`}>
+        <div className="absolute h-full w-full bg-[url(/images/bg-stars.svg)] bg-contain" />
         {children}
       </body>
     </html>
