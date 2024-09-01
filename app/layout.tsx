@@ -16,7 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${redhat.className} flex min-h-screen flex-col antialiased scroll-smooth bg-gradient-to-b from-lc-very-dark-blue to-lc-bottom-gradient`}>
+      <body
+        className={`${redhat.className} flex min-h-screen flex-col scroll-smooth bg-gradient-to-b from-lc-very-dark-blue to-lc-bottom-gradient antialiased`}
+      >
         <div className="absolute h-full w-full bg-[url(/images/bg-stars.svg)] bg-contain" />
         {children}
       </body>

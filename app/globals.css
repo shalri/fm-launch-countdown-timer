@@ -6,25 +6,25 @@
   position: relative;
   display: inline-flex;
   flex-direction: column;
-  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
-  border-radius: .1em;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.1em;
 }
 
 .top,
 .bottom,
 .flip-card .top-flip,
 .flip-card .bottom-flip {
-  height: .75em;
+  height: 0.75em;
   line-height: 1;
-  padding: .25em;
+  padding: 0.25em;
   overflow: hidden;
 }
 
 .top,
 .flip-card .top-flip {
   background-color: #f7f7f7;
-  border-top-right-radius: .1em;
-  border-top-left-radius: .1em;
+  border-top-right-radius: 0.1em;
+  border-top-left-radius: 0.1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -33,8 +33,8 @@
   background-color: white;
   display: flex;
   align-items: flex-end;
-  border-bottom-right-radius: .1em;
-  border-bottom-left-radius: .1em;
+  border-bottom-right-radius: 0.1em;
+  border-bottom-left-radius: 0.1em;
 }
 
 .flip-card .top-flip {
@@ -67,20 +67,20 @@
 
 .fc-container {
   display: flex;
-  gap: .5em;
+  gap: 0.5em;
   justify-content: center;
 }
 
 .container-segment {
   display: flex;
   flex-direction: column;
-  gap: .1em;
+  gap: 0.1em;
   align-items: center;
 }
 
 .segment {
   display: flex;
-  gap: .1em;
+  gap: 0.1em;
 }
 
 .segment-title {

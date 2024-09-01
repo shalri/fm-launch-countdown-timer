@@ -1,6 +1,5 @@
 // import Header from "../components/Header";
 import FlipClock from "@/components/FlipClock";
-// import Countdown from "../components/Countdown";
 import Footer from "../components/Footer";
 
 export default function Home() {
